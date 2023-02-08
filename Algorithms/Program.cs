@@ -7,7 +7,7 @@
            foreach (var arg in UserList())
             {
                 Console.WriteLine($"\nПривет, {arg.Name} ({arg.Login})!");
-                if (arg.IsPremium == true)
+                if (arg.IsPremium != true)
                 {
                     ShowAds();
                 }
